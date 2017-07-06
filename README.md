@@ -9,10 +9,12 @@ Read Me Contents
 
 A spin-off of the Piano-Tile Game on iOS and Android
 
-Concepts of the game are the same as the original, clear as many tiles within a period of 30s to get the highest score possible.
+The concept of the game is the same as the original, clear as many tiles within a period of 30s to get the highest score possible.
+
+https://dominikphua.github.io/project-1-attempt2/
 
 ---
-### How it Works
+### The Gist of It
 
 The whole game is based on an array. Before the game starts, the array (gameArray) contains no elements in it.
 
@@ -20,7 +22,7 @@ The whole game is based on an array. Before the game starts, the array (gameArra
 var gameArray = []
 ```
 
- A keydown event will trigger the first set of random numbers. This is achieved through a function called gameStart() which incorporates a function called ranzomier() that radomizes numbers.
+ A keydown event will trigger the first set of random numbers. This is achieved through a function called startGame() which incorporates another function called ranzomier() that radomizes numbers.
 
  ```
  function gameStart () {
@@ -75,26 +77,7 @@ function () {
 // where X is either A, B, C or D
 ```
 ---
+### Flowchart
+---
 
-### Project Feedback + Evaluation
-
-* __Project Workflow__: Did you complete the user stories, wireframes, task tracking, and/or ERDs, as specified above? Did you use source control as expected for the phase of the program you’re in (detailed above)?
-
-* __Technical Requirements__: Did you deliver a project that met all the technical requirements? Given what the class has covered so far, did you build something that was reasonably complex?
-
-* __Creativity__: Did you add a personal spin or creative element into your project submission? Did you deliver something of value to the end user (not just a login button and an index page)?
-
-* __Code Quality__: Did you follow code style guidance and best practices covered in class, such as spacing, modularity, and semantic naming? Did you comment your code as your instructors have in class?
-
-* __Deployment__: Did you deploy your application to a public url using GitHub Pages?
-
-* __Total__: Your instructors will give you a total score on your project between:
-
-    Score | Expectations
-    ----- | ------------
-    **0** | _Incomplete._
-    **1** | _Does not meet expectations._
-    **2** | _Meets expectations, good job!_
-    **3** | _Exceeds expectations, you wonderful creature, you!_
-
- This will serve as a helpful overall gauge of whether you met the project goals, but __the more important scores are the individual ones__ above, which can help you identify where to focus your efforts for the next project!
+### Improvements
