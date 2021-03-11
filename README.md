@@ -1,4 +1,4 @@
-# Project Name (Start editing here)
+# Project Name
 <!---
 Read Me Contents
 -->
